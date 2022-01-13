@@ -38,19 +38,21 @@ public class ROMCapability {
     @SubscribeEvent
     public static void onCommonSetup(FMLCommonSetupEvent event) {
         event.enqueueWork(() -> {
-            TimeCore.INSTANCE.getCapabilityManager().attachStaticCoffeeCapability(CapabilityOwner.ENTITY, MONEY, entity -> entity instanceof Player, entity -> new ROMMoney((Player) entity));
-            TimeCore.INSTANCE.getCapabilityManager().enableSyncingPlayerCapabilityOnJoin(entity -> {
-                ROMMoney cap = ROMMoney.from(entity);
-                if (cap != null) cap.sendAllData();
-            });
-        });
-
-        event.enqueueWork(()->{
-           TimeCore.INSTANCE.getCapabilityManager().attachStaticCoffeeCapability(CapabilityOwner.ENTITY,LUNAR,entity -> entity instanceof Player, entity -> new ROMLunar((Player) entity));
-            TimeCore.INSTANCE.getCapabilityManager().enableSyncingPlayerCapabilityOnJoin(entity -> {
-                ROMLunar cap = ROMLunar.from(entity);
-                if (cap != null) cap.sendAllData();
-            });
-        });
+            //TODO:Андрей пофиксь капабилити пж<3
+            //            TimeCore.INSTANCE.getCapabilityManager().attachStaticCoffeeCapability(CapabilityOwner.ENTITY, MONEY, entity -> entity instanceof Player, entity -> new ROMMoney((Player) entity));
+//            TimeCore.INSTANCE.getCapabilityManager().enableSyncingPlayerCapabilityOnJoin(entity -> {
+//                ROMMoney cap = ROMMoney.from(entity);
+//                if (cap != null) cap.sendAllData();
+//            });
+//        });
+//
+//        event.enqueueWork(()->{
+//           TimeCore.INSTANCE.getCapabilityManager().attachStaticCoffeeCapability(CapabilityOwner.ENTITY,LUNAR,entity -> entity instanceof Player, entity -> new ROMLunar((Player) entity));
+//            TimeCore.INSTANCE.getCapabilityManager().enableSyncingPlayerCapabilityOnJoin(entity -> {
+//                ROMLunar cap = ROMLunar.from(entity);
+//                if (cap != null) cap.sendAllData();
+//            });
+       });
     }
 }
+
