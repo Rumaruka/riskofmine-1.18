@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "com.rumaruka.riskofmine.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "riskofmine.refmap.json",
+  "mixins": [
+    "PlayerRendererMixin"
+
+
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "minVersion": "0.8"
+}

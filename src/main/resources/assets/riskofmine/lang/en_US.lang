@@ -1,0 +1,25 @@
+itemGroup.riskofmine=Risk Of Mine
+
+#Messages
+message.welcome=Thank you to dowloading this mod.
+message.welcome_n=Please check original game (Risk of Rain 2) and support Hopoo Game studio
+
+#Blocks
+
+#Items
+item.riskofmine.armor_piercing_rounds.name=Armor-Piercing Rounds
+item.riskofmine.bustling_fungus.name=Bustling Fungus
+item.riskofmine.monster_tooth.name=Monster Tooth
+item.riskofmine.soldier_syringe.name=Soldier's Syringe
+item.riskofmine.infusion.name=Infusion
+item.riskofmine.shaped_glass.name=Shaped Glass
+item.riskofmine.gasoline.name=Gasoline
+
+#Info
+ror.shiftpress.info=Press SHIFT for more info:
+ror.apr.info=Increases damage to bosses in
+ror.bf.info=After standing still for 2 seconds heal in
+ror.mt.info=Heal after killed in 40%
+ror.ss.info=Increases attack speed by 15%
+ror.inf.info=Add max health for player.
+ror.inf1.info=§4WARNING : I recommend stacking item

@@ -1,0 +1,17 @@
+{
+  "riskofmine.block.open_chest": {
+    "sounds": [
+      "riskofmine:riskofmine.block.open_chest"
+    ]
+  },
+  "riskofmine.block.not_money": {
+    "sounds": [
+      "riskofmine:riskofmine.block.not_money"
+    ]
+  },
+  "riskofmine.player.level_up": {
+    "sounds": [
+      "riskofmine:riskofmine.player.level_up"
+    ]
+  }
+}
